@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  #container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  #taskInput {
+    width: 300px;
+    padding: 5px;
+    margin-right: 5px;
+  }
+  
+  #addTaskButton {
+    padding: 5px 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+  }
